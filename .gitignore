@@ -1,0 +1,5 @@
+*.jpg
+*.json
+venv/*
+__pycache__/
+.env

@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "inference_params"
+version = "0.1.0"
+description = ""
+authors = ["Matthew Chung <matthewchung74@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.7.10"
+requests = "^2.23.1"
+boto3 = "^1.17.59"
+
+[tool.poetry.dev-dependencies]
+pytest = "^6.2.3"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

@@ -1,7 +1,7 @@
 from setuptools import setup
 
 setup(
-    name="inference_params",
+    name="yhat_params",
     version="0.0.1",
     description="",
     url="https://github.com/yhatpub/yhat_params",

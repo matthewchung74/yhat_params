@@ -1,11 +1,11 @@
 [tool.poetry]
-name = "inference_params"
+name = "yhat_params"
 version = "0.1.0"
 description = ""
-authors = ["Matthew Chung <matthewchung74@gmail.com>"]
+authors = ["Matthew Chung <matt@yhat.pub>"]
 
 [tool.poetry.dependencies]
-python = "^3.7.10"
+python = "^3.8"
 requests = "^2.23.1"
 boto3 = "^1.17.59"
 

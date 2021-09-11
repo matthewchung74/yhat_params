@@ -5,7 +5,7 @@ description = ""
 authors = ["Matthew Chung <matt@yhat.pub>"]
 
 [tool.poetry.dependencies]
-python = "^3.8"
+python = "^3.7"
 requests = "^2.23.1"
 boto3 = "^1.17.59"
 

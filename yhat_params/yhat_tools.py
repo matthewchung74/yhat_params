@@ -51,11 +51,8 @@ def write_image_to_s3(image, s3_uri: str):
     if "PIL" not in str(type(image)):
         image = Image.fromarray(image)
 
-    try:
-        image.save(file_stream, format="jpeg")
-        object.put(Body=file_stream.getvalue())
-    except Exception as e:
-        print(e)
+    image.save(file_stream, format="jpeg")
+    object.put(Body=file_stream.getvalue())
 
 
 def read_image_from_s3(s3_uri: str, field_type: FieldType):
